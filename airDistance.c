@@ -23,5 +23,10 @@ double Degree_to_Radian(double value);
     delta = lon2 - lon1;
     distance = (acos(sin(lati1))*sin(lati2)+cos(lati2)*cos(lati2)*cos(delta))*RADIUS;
 
-    
+    printf("Location Distance\n");
+    printf("origin = %lf %lf\n",lon1,lati1);
+    printf("Distination = %lf %lf\n",lon2,lati2);
+    printf("Distance = %lf\n",distance);
+
+    return 0;
 }
