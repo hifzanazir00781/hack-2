@@ -30,3 +30,7 @@ double Degree_to_Radian(double value);
 
     return 0;
 }
+double Degree_to_radiun(double value)
+{
+    return ((value/180.0)*M_PI);
+}
