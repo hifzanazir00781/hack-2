@@ -24,6 +24,9 @@ int main()
     printf("Enter the longitude 1 in degree -180 to 180 : ");
     scanf("%lf",&lon1);
 
+    printf("origin = %lf %lf\n",lon1,lati1);
+    printf("Distination = %lf %lf\n",lon2,lati2);
+
     lon1 = Degree_to_Radian(lon1);
     lati1= Degree_to_Radian(lati1);
     lon2 = Degree_to_Radian(lon2);
@@ -35,8 +38,7 @@ int main()
     printf("Location Distance\n");
     printf("================\n");
 
-    printf("origin = %lf %lf\n",lon1,lati1);
-    printf("Distination = %lf %lf\n",lon2,lati2);
+   
     printf("Distance = %lf\n",distance);
 
     return 0;
